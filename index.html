@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>御池生成AIスクール | 仕事のスピードが劇的に変わる</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Noto Sans JP"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            navy: '#0f172a',
+                            gold: '#c29b47',
+                            light: '#f8fafc',
+                            dark: '#020617',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Noto Sans JP', sans-serif; }
+        .bg-hero {
+            background-image: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)), url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        .gold-gradient {
+            background: linear-gradient(135deg, #dfc16d 0%, #c29b47 100%);
+        }
+        .gold-text-gradient {
+            background: linear-gradient(135deg, #fcecae 0%, #c29b47 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-brand-light text-gray-800 antialiased">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-brand-navy/95 backdrop-blur-sm border-b border-white/10">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <i data-lucide="cpu" class="text-brand-gold w-6 h-6"></i>
+                <span class="text-white font-bold tracking-widest text-lg">御池生成AIスクール</span>
+            </div>
+            <a href="https://lin.ee/hJfLfscS" class="hidden sm:inline-flex items-center justify-center px-5 py-2 text-sm font-bold text-brand-navy gold-gradient rounded-full hover:opacity-90 transition-opacity">
+                限定クーポンGET
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section (FV) -->
+    <section class="bg-hero min-h-[90vh] flex items-center pt-16">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 w-full py-20">
+            <div class="max-w-3xl">
+                <div class="inline-block px-4 py-1.5 border border-brand-gold text-brand-gold text-sm font-bold tracking-widest rounded-full mb-6">
+                    少人数制グループ ＆ 完全個別レッスン
+                </div>
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-black text-white leading-tight mb-6">
+                    仕事のスピードが<br>
+                    <span class="gold-text-gradient">劇的に変わる。</span><br>
+                    御池ではじめる生成AI。
+                </h1>
+                <p class="text-gray-300 text-lg sm:text-xl leading-relaxed mb-10 font-light">
+                    2026年、仕事のやり方は二極化します。<br class="hidden sm:block">
+                    あなたはまだ「手作業」を続けますか？それとも「生成AI」を操りますか？
+                </p>
+                
+                <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 inline-block w-full sm:w-auto">
+                    <p class="text-white text-center text-sm mb-3">＼ LINE公式登録で割引チケットプレゼント中 ／</p>
+                    <a href="https://lin.ee/hJfLfscS" class="block w-full text-center px-8 py-4 text-lg font-bold text-brand-navy gold-gradient rounded-xl hover:scale-105 transition-transform shadow-[0_0_20px_rgba(194,155,71,0.4)]">
+                        入門コース 33,000円 → <span class="text-2xl">22,000円</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-brand-navy">
+                毎日、こんな「手作業」に<br class="sm:hidden">追われていませんか？
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 relative">
+                    <div class="absolute -top-4 -left-4 w-12 h-12 bg-red-100 text-red-500 rounded-full flex items-center justify-center font-bold text-xl">✓</div>
+                    <p class="text-lg text-gray-700 leading-relaxed mt-2">
+                        議事録の作成やメールの返信など、定型的な文章作成だけで<strong class="text-red-500">毎日数時間が溶けていく…</strong>
+                    </p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 relative">
+                    <div class="absolute -top-4 -left-4 w-12 h-12 bg-red-100 text-red-500 rounded-full flex items-center justify-center font-bold text-xl">✓</div>
+                    <p class="text-lg text-gray-700 leading-relaxed mt-2">
+                        「生成AI」が良いとは聞くが、<strong class="text-red-500">何から手をつければ自分の仕事に役立つのか</strong>全く分からない…
+                    </p>
+                </div>
+            </div>
+            
+            <div class="text-center relative">
+                <div class="absolute top-1/2 left-0 w-full h-px bg-brand-gold/30 -z-10"></div>
+                <span class="inline-block px-8 py-4 bg-brand-navy text-white text-xl md:text-2xl font-bold rounded-full shadow-xl">
+                    その悩み、すべて<span class="text-brand-gold">「生成AI」</span>が解決します。
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-20 bg-brand-navy text-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-16">
+                <span class="text-brand-gold font-bold tracking-widest text-sm block mb-2">BENEFITS</span>
+                <h2 class="text-3xl md:text-4xl font-bold">御池で身につく、3つの力</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="bg-brand-dark/50 p-8 rounded-2xl border border-white/10 hover:border-brand-gold/50 transition-colors">
+                    <div class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mb-6 text-brand-navy">
+                        <i data-lucide="zap" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-white">圧倒的作業スピード</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">
+                        数時間かかっていたメール作成や議事録、定型業務をわずか数分に短縮。本来人間がやるべき「考える時間」を創出します。
+                    </p>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="bg-brand-dark/50 p-8 rounded-2xl border border-white/10 hover:border-brand-gold/50 transition-colors">
+                    <div class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mb-6 text-brand-navy">
+                        <i data-lucide="bar-chart-2" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-white">高度な調査・分析力</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">
+                        分厚い資料の読み込みや市場リサーチを一瞬で処理。自分専用の優秀なアナリストがいるかのように、的確な情報整理が可能になります。
+                    </p>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="bg-brand-dark/50 p-8 rounded-2xl border border-white/10 hover:border-brand-gold/50 transition-colors">
+                    <div class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mb-6 text-brand-navy">
+                        <i data-lucide="monitor" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-white">パソコン活用力</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">
+                        難しい操作を覚えるのではなく、パソコンと「対話」して動かす新時代へ。ツールに振り回されず、AIを右腕として使いこなす力が身につきます。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-16">
+                <span class="text-brand-gold font-bold tracking-widest text-sm block mb-2">COURSES</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-navy">選べる2つの実践コース</h2>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-10">
+                <!-- Course 1 -->
+                <div class="bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden relative">
+                    <div class="absolute top-0 left-0 w-full h-2 gold-gradient"></div>
+                    <div class="p-8 md:p-10">
+                        <span class="bg-gray-100 text-brand-navy text-xs font-bold px-3 py-1 rounded-full mb-4 inline-block">少人数制</span>
+                        <h3 class="text-2xl font-bold text-brand-navy mb-2">生成AI入門コース</h3>
+                        <p class="text-gray-500 mb-6 font-medium">1時間半 × 全3回（週1回）</p>
+                        
+                        <div class="space-y-4 mb-8">
+                            <div class="flex gap-4">
+                                <div class="w-12 flex-shrink-0 text-center">
+                                    <span class="block text-brand-gold font-bold text-sm">DAY 1</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">生成AIの基礎知識を得る</h4>
+                                    <p class="text-sm text-gray-500 mt-1">自己紹介の作成、画像生成体験などAIの全体像を把握。</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-12 flex-shrink-0 text-center">
+                                    <span class="block text-brand-gold font-bold text-sm">DAY 2</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">AIにうまく指示する</h4>
+                                    <p class="text-sm text-gray-500 mt-1">プロンプトの基礎と、個別課題の相談実習。</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="w-12 flex-shrink-0 text-center">
+                                    <span class="block text-brand-gold font-bold text-sm">DAY 3</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">自分に役立つAIを作る</h4>
+                                    <p class="text-sm text-gray-500 mt-1">GeminiやNotebookLMで専用アシスタントを作成。</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-brand-light p-6 rounded-2xl border border-gray-100 text-center">
+                            <p class="text-gray-500 line-through text-sm">通常価格 33,000円</p>
+                            <p class="text-3xl font-black text-brand-navy mt-1">22,000<span class="text-lg font-normal">円</span></p>
+                            <p class="text-xs text-brand-gold font-bold mt-2">※LINE公式登録時の限定価格（税込・別途入会金）</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="bg-brand-navy rounded-3xl shadow-lg overflow-hidden relative text-white">
+                    <div class="absolute top-0 left-0 w-full h-2 bg-gray-600"></div>
+                    <div class="p-8 md:p-10 h-full flex flex-col">
+                        <span class="bg-white/10 text-white text-xs font-bold px-3 py-1 rounded-full mb-4 inline-block w-max">1対1マンツーマン</span>
+                        <h3 class="text-2xl font-bold mb-2">完全個別プライベートレッスン</h3>
+                        <p class="text-gray-400 mb-6 font-medium">あなたの実務課題を直接解決</p>
+                        
+                        <p class="text-gray-300 leading-relaxed mb-8 flex-grow">
+                            事前に1時間ヒアリングさせていただき、あなたのニーズに合わせたプライベートレッスンを作成します。<br><br>
+                            「自社のデータを読み込ませたい」「特定の業務フローを丸ごと自動化したい」など、専門家が伴走します。
+                        </p>
+
+                        <div class="bg-white/5 p-6 rounded-2xl border border-white/10 text-center mt-auto">
+                            <p class="text-gray-400 text-sm mb-1">料金</p>
+                            <p class="text-3xl font-black text-brand-gold">22,000<span class="text-lg font-normal text-white">円〜 / 1時間</span></p>
+                            <p class="text-xs text-gray-400 mt-2">（税込・別途入会金）</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-16">
+                <span class="text-brand-gold font-bold tracking-widest text-sm block mb-2">PARTNERSHIP</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-6">信頼と専門性を、御池から。</h2>
+                <p class="text-gray-600">
+                    生成AIはパソコンのソフトも操作してくれるような新たな技術です。<br class="hidden sm:block">
+                    その技術をいち早くお届けするため、地域の教育とAIのプロがタッグを組みました。
+                </p>
+            </div>
+
+            <div class="bg-brand-light p-8 md:p-12 rounded-3xl border border-gray-200">
+                <div class="flex flex-col md:flex-row gap-10 items-center">
+                    <div class="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg flex-shrink-0 bg-gray-200">
+                        <!-- Placeholder for Portrait -->
+                        <img src="img/hideyuki-ogawa.png" alt="小川 英幸" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <span class="text-brand-gold font-bold text-sm">合同会社 長目 代表社員</span>
+                        <h3 class="text-2xl font-bold text-brand-navy mt-1 mb-4">小川 英幸 <span class="text-base font-normal text-gray-500 ml-2">Hideyuki Ogawa</span></h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5"></i>
+                                <span class="text-gray-700">データ分析・AI活用のプロフェッショナル</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5"></i>
+                                <span class="text-gray-700">プログラミング・データ分析書籍を2冊執筆</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5"></i>
+                                <span class="text-gray-700">京都商工会議所 知恵-1グランプリ受賞</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5"></i>
+                                <span class="text-gray-700">京都の経営者様へのAI指導実績多数</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="mt-10 pt-10 border-t border-gray-200 text-center">
+                    <p class="text-sm text-gray-500 font-bold mb-2">運営・サポート</p>
+                    <p class="text-lg font-bold text-brand-navy">パソコープ烏丸御池</p>
+                    <p class="text-sm text-gray-600 mt-1">御池地域で10年間、デジタル教育を提供し続ける信頼のパソコン教室</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="py-24 bg-brand-navy relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M0 40L40 0H20L0 20M40 40V20L20 40" stroke="currentColor" stroke-width="1" fill="none"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid)"/>
+            </svg>
+        </div>
+
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 relative z-10 text-center">
+            <h2 class="text-3xl md:text-5xl font-black text-white mb-6">
+                「操る側」へアップデートする<br>準備はできましたか？
+            </h2>
+            <p class="text-xl text-gray-300 mb-10">
+                まずはLINE公式に登録して、<br class="sm:hidden">限定割引クーポンをお受け取りください。
+            </p>
+
+            <div class="bg-white p-8 md:p-12 rounded-3xl shadow-2xl max-w-xl mx-auto">
+                <div class="w-16 h-16 bg-[#06C755] rounded-full flex items-center justify-center mx-auto mb-6">
+                    <i data-lucide="message-circle" class="w-8 h-8 text-white"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">LINE公式アカウント</h3>
+                <p class="text-gray-500 mb-8 text-sm">最新情報やご質問・お問い合わせもこちらから！</p>
+                
+                <a href="https://lin.ee/hJfLfscS" class="block w-full bg-[#06C755] text-white text-xl font-bold py-5 px-8 rounded-2xl hover:bg-[#05b34c] transition-colors shadow-lg shadow-green-500/30 mb-6 flex items-center justify-center gap-2">
+                    <i data-lucide="user-plus" class="w-6 h-6"></i>
+                    友だち追加してクーポンGET
+                </a>
+                
+                <p class="text-xs text-gray-400">※ご登録後、自動でクーポンと詳細案内をお送りします。<br>※ご相談のみでも大歓迎です。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-gray-400 py-12 text-sm">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <div class="flex items-center gap-2 mb-4 justify-center md:justify-start text-white">
+                    <i data-lucide="cpu" class="text-brand-gold w-5 h-5"></i>
+                    <span class="font-bold tracking-widest text-base">御池生成AIスクール</span>
+                </div>
+                <p class="text-center md:text-left mb-1">〒604-0842 京都府京都市中京区西押小路町115-1 デコスビル1階</p>
+                <p class="text-center md:text-left">地下鉄「烏丸御池駅」から徒歩2分</p>
+            </div>
+            <div class="text-center md:text-right">
+                <p class="mb-1">お問い合わせ: info@pc-karasuma.jp</p>
+                <p class="mb-4">TEL: 075-123-4567</p>
+                <p>&copy; 2026 御池生成AIスクール. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
